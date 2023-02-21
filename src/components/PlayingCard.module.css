@@ -1,0 +1,11 @@
+.card {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  border: 1px solid black;
+}
+
+.card_flip {
+  background-color: black;
+  transform: rotateY(180deg);
+}
