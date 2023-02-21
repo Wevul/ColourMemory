@@ -50,7 +50,7 @@ function App() {
             setScore((score) => score -1);
             return state.map(v => ({...v, active: false}))
           })
-        }, 1000);
+        }, 2000);
       } 
       setCount((count) => count + 1);
       setPlayingCards(state => { 
